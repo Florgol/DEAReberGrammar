@@ -434,7 +434,7 @@ function stringGenerator(mode) {
     state = determineNewState(state, ed);
     output += ed;
 
-    if (ed == "E") {return output;};
+    if (ed == "E") {return output;}
   }
 
   output = "";
@@ -443,7 +443,7 @@ function stringGenerator(mode) {
 }
 
 
-//Diese Funktion nimmt einen Zustand
+//Diese Funktion nimmt einen Zustand test
 //und generiert zufällig die nächste Kante.
 function nextEdge(state){
 
